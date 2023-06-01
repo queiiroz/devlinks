@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #dddddd;
+}
+
+body {
+  background-image: url(./assets/bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  font-family: "Inter", sans-serif;
+}
+
+#container {
+  width: 588px;
+  height: 712px;
+
+  margin: auto;
+  padding-top: 56px;
+  padding: 0 24px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+  border-radius: 50%;
+  border: 3px solid #dddddd;
+}
+
+#profile p {
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+/*links */
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  background: #ffffff1a;
+  --webkit-backdrop-filter: blur(4px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+
+  padding: 16px 24px;
+
+  border-radius: 8px;
+  border: 1px solid #ffffff80;
+
+  transition: background 0.2s ease-in-out;
+
+  &:hover {
+    background: #ffffff0d;
+    border: 1.5px solid #ffffff;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 88px;
+  font-size: 14px;
+  padding: 24px 0;
+}
