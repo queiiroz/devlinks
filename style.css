@@ -24,12 +24,10 @@
 }
 
 body {
-  background-image: var(--bg-url);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
+  background: var(--bg-url) no-repeat top center/cover;
   font-family: "Inter", sans-serif;
+
+  height: 100vh;
 }
 
 #container {
@@ -146,4 +144,16 @@ footer {
   margin-top: 88px;
   font-size: 14px;
   padding: 24px 0;
+}
+
+/*meida queries*/
+
+@media (max-width: 768px) {
+  :root {
+    --bg-url: url(./assets/bg-mobile.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+  }
 }
