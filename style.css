@@ -23,6 +23,21 @@
   --surface-color-hover: rgba(0, 0, 0, 0.01);
   --switch-bg-url: url(./assets/sun.svg);
   --highlight: rgba(0, 0, 0, 0.1);
+
+  
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #585858;
+  border-radius: 8px;
 }
 
 body {
@@ -150,7 +165,7 @@ footer {
   text-align: center;
   margin-top: 88px;
   font-size: 14px;
-  padding: 24px 0;
+  padding: 50px 0;
 }
 
 /*meida queries*/
