@@ -10,7 +10,7 @@
   --bg-url: url(./assets/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(0, 0, 0, 0.05);
+  --surface-cgosolor-hover: rgba(0, 0, 0, 0.05);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
@@ -33,11 +33,10 @@ body {
 }
 
 #container {
-  width: 588px;
-  height: 712px;
+  width: 100%;
+  max-width: 588px;
 
-  margin: auto;
-  padding-top: 56px;
+  margin: 56px auto 0px;
   padding: 0 24px;
 }
 
@@ -65,7 +64,6 @@ body {
 #switch {
   position: relative;
   width: 64px;
-
 
   margin: 4px auto;
 }
